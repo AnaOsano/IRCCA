@@ -1,0 +1,42 @@
+.LoginContainer {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .LoginForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .LoginForm label {
+    margin-bottom: 8px;
+  }
+
+  .LoginForm input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+
+  .LoginForm button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .LoginForm button:hover {
+    background-color: #0056b3;
+  }
+.label{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
