@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
+import styles from "./MainView.module.css";
+import DatosGenerales from "./datosGenerales/DatosGenerales";
+import DatosPersonales from "./datosPersonales/DatosPersonales";
 
 function MainView() {
+
   return (
-    <div>
-      <h2>Página Principal</h2>
-    </div>
+   <div className={styles.container}> <DatosGenerales></DatosGenerales>
+   <DatosPersonales></DatosPersonales></div>
   );
 }
 

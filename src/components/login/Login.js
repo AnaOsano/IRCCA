@@ -1,15 +1,17 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import styles from "./Login.module.css";
+
+
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from './Login.module.css';
 
 function Login() {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
 
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    navigate("/main");
+    navigate('/main');
   };
 
   return (
@@ -18,19 +20,11 @@ function Login() {
       <form className={styles.LoginForm} onSubmit={handleLogin}>
         <div>
           <label>Nombre de usuario:</label>
-          <input
-            type="text"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-          />
+          <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
         </div>
         <div>
           <label className={styles.label}>Contraseña:</label>
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </div>
         <button type="submit">Iniciar sesión</button>
       </form>
@@ -39,3 +33,4 @@ function Login() {
 }
 
 export default Login;
+
