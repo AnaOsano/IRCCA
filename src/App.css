@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+.MuiButton-outlined {
+  border:1px solid rgba(106, 110, 114, 0.5);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +39,4 @@
     transform: rotate(360deg);
   }
 }
+

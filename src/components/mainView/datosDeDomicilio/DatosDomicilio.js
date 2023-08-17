@@ -1,44 +1,47 @@
 import React from "react";
-import { FormLabel, TextField } from "@mui/material";
-import styles from "./DatosPersonales.module.css";
+import { FormLabel, TextField} from "@mui/material";
+import styles from "./DatosDomicilio.module.css";
 import StyledMenu from '../StyledMenu'
 
 
-function DatosPersonales() {
+function Datosdomicilio() {
+
   return (
     <div className={styles.container} elevation={0}>
-      <h6 className={styles.title}>Datos Personales</h6>
-      <div className={styles.fieldContainerId}>
-         <FormLabel id="demo-controlled-radio-buttons-group">
-          Documento de identidad *
+      <h6 className={styles.title}>Datos de domicilio</h6>
+      <div className={styles.fieldContainerDep}>
+        <FormLabel id="demo-controlled-radio-buttons-group">
+          Departamento *
         </FormLabel>
         <StyledMenu></StyledMenu>
       </div>
       <div className={styles.fieldContainer1}>
         <FormLabel id="demo-controlled-radio-buttons-group">
-          Numero de documento *
+          Localidad *
         </FormLabel>
-        <TextField label="" size="small" />
+        <StyledMenu></StyledMenu>
       </div>
       <div className={styles.fieldContainer}>
         <FormLabel id="demo-controlled-radio-buttons-group">
-          Apellidos *
+          Calle *:
         </FormLabel>
         <TextField label="" size="small" />
       </div>
-      <div className={styles.fieldContainer}>
+      <div className={styles.fieldContainerNumero}>
         <FormLabel id="demo-controlled-radio-buttons-group">
-          Nombres *
+          Numero *:
         </FormLabel>
 
         <TextField label="" size="small" />
       </div>
-      <div className={styles.fieldContainer2}>
-        <FormLabel id="demo-controlled-radio-buttons-group"> Edad * </FormLabel>
+      <div className={styles.fieldContainerDato}>
+        <FormLabel id="demo-controlled-radio-buttons-group"> Otros datos *: </FormLabel>
         <TextField label="" size="small" />
+      </div>
+      <div>
       </div>
     </div>
   );
 }
 
-export default DatosPersonales;
+export default Datosdomicilio;

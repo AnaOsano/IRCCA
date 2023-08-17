@@ -1,0 +1,16 @@
+ .fieldContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.container{
+    border-radius: 0;
+    border: 1px solid black;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 700px;
+
+}

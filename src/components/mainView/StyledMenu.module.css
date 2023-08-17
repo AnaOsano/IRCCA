@@ -1,0 +1,12 @@
+.blackBorderButton {
+    border-color: gray;
+  }
+  .icon {
+    color: gray;
+    padding-left: 125px;
+    margin: 0px;
+  }
+
+  .MuiButton-outlined {
+    border:1px solid rgba(106, 110, 114, 0.5);
+  }

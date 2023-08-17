@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: center;
     padding-bottom: 10px;
+
 }
 .fieldContainer2{
   display: flex;
@@ -17,16 +18,32 @@
   justify-content: center;
   margin-left: 25px;
   padding-bottom: 10px;
-  margin-right: 125px;
+  margin-right: 55px;
 }
-.fieldContainerId{
+.fieldContainerDep{
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-left: 25px;
   padding-bottom: 10px;
-  margin-right: 135px;
+  margin-right: 90px;
 }
+.fieldContainerNumero{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 10px;
+  margin-right: 20px;
+}
+.fieldContainerDato{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 10px;
+  margin-right: 45px;
+}
+
+
 .container{
     border-radius: 0;
     border: 1px solid black;
@@ -45,3 +62,5 @@ h6 {
     background-color: white;
     padding: 0 8px;
   }
+
+
